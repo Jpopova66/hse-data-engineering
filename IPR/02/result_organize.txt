@@ -1,0 +1,13 @@
+test_downloads
+test_downloads/archives
+test_downloads/archives/archive.zip
+test_downloads/documents
+test_downloads/documents/notes.TXT
+test_downloads/documents/report.pdf
+test_downloads/documents/report_1.pdf
+test_downloads/images
+test_downloads/images/my file.png
+test_downloads/images/photo.JPG
+test_downloads/other
+test_downloads/other/README
+test_downloads/other/something.bin
