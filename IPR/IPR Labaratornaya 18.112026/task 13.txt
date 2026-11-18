@@ -1,0 +1,8 @@
+curl --fail --silent --show-error --user admin \
+  'http://localhost:8081/artifactory/api/storage/myapp-local/myapp/1.0.0/myapp-1.0.0.tar.gz' \
+  | grep '"sha256"' | cut -d'"' -f4 | sort -u
+
+
+результат
+
+a425a40a35eca30e4fb7d2e8ae6ab4a23d6d3606d7e4b4f76e11a0d8bfe3f58e
